@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+/* * {
+  outline: solid 1px red;
+} */
+.mainpage{
+  overflow:hidden;
+}
+.color-wave{
+  background-image: url('./BgImages/grunge.png');
+  background-position: -1px 40%;
+  background-repeat: no-repeat;
+  background-size: 101% 195%;
+}
+.typewritertxt{
+  color: white;
+  font-family: oswald;
+}
+.gsaplogo{
+  z-index: 5;
+}
+.expbody{
+  background-color: #474747;;
+}
+.reactslide{
+  z-index: 2;
+}
+.bganim{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 2;
+}
+.bganim1{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 1;
+}
+/*.bganim:hover{
+  clip-path: polygon(8% 10%, 12% 10%, 12% 94%, 8% 92%);
+}*/
+.arrow{
+  fill: darkslateblue;
+}
+body{
+  background: #d0d0d0;
+}
+*{
+ margin: 0%;
+ padding: 0%; 
+}
+#text_3d{
+  line-height: 0;
+}
+/*below is the best method to import fonts*/
+@font-face {
+  font-family: breaking;
+  src: url('fonts/BreakingitalicpersonaluseCni-8MlmJ.otf');
+}
+.font-break{
+  font-family: breaking;
+}
+@font-face {
+  font-family: north;
+  src: url('fonts/Blacknorthdemo-mLE25.otf');
+}
+.font-north{
+  font-family: north;
+}
+@font-face {
+  font-family: 'Fira Sans', sans-serif;
+
+}
+.font-fira{
+  font-family: 'Fira Sans', sans-serif;
+}
+.font-oswald{
+  font-family: oswald;
+}
+
+@font-face {
+  font-family: naturebeauty;
+  src: url('fonts/NatureBeautyPersonalUse-9Y2DK.ttf');
+}
+.naturebeauty{
+  font-family: naturebeauty;
+}
+@font-face {
+    font-family: abril;
+    src: url(fonts/AbrilFatface-Regular.ttf);
+}
+.abril{
+    font-family: abril;
+}
+@font-face {
+    font-family: karla;
+    src: url(fonts/Karla-Italic-VariableFont_wght.ttf);
+}
+.karla{
+    font-family: karla;
+}
+body{
+    overflow-x: hidden;
+}
+@keyframes expert{
+from{
+  width: 14px;
+}
+to{
+  width: 620px;
+}
+}
+@keyframes medium {
+from{
+  width: 14px;
+}
+to{
+  width: 360px;
+}
+}
+@keyframes novice {
+from{
+width: 14px;
+}
+to{
+width: 150px;
+}
+}
+@keyframes html{
+  from{
+    width: 14px;
+  }
+  to{
+    width: 550px;
+  }
+}
+@keyframes figma{
+  from{
+    width: 14px;
+  }
+  to{
+    width: 420px;
+  }
+}
+@keyframes medium1 {
+  from{
+  width: 14px;
+  }
+  to{
+  width: 270px;
+  }
+}
+@keyframes medium2 {
+  from{
+  width: 14px;
+  }
+  to{
+  width: 420px;
+  }
+}
+@keyframes medium3 {
+  from{
+    width: 14px;
+  }
+  to{
+    width: 495px;
+  }
+}
+#r1{
+animation-name: expert;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}
+#r2{
+animation-name: html;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}#r3{
+animation-name: novice;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}#r4{
+animation-name: expert;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}#r5{
+animation-name: html;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}#r6{
+animation-name: expert;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}#r7{
+animation-name: medium2;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}#r8{
+animation:  medium3 3s;
+animation-fill-mode: forwards;
+}
+#r9{
+  animation: medium1 3s forwards;
+}
+#r10{
+  animation: medium2 3s forwards;
+}
+#r11{
+  animation: figma 3s forwards;
+}
+@keyframes scale{
+  from{
+    opacity: 0;
+    scale: 0.2;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.card1:nth-child(1){
+  animation: scale 1s;
+  animation-fill-mode: backwards;
+}
+.card1:nth-child(2){
+  animation: scale 1s;
+  animation-delay: 250ms;
+  animation-fill-mode: backwards;
+}
+.card1:nth-child(3){
+  animation: scale 1s;
+  animation-delay: 500ms;
+  animation-fill-mode: backwards;
+}
+.card1:nth-child(4){
+  animation: scale 1s;
+  animation-delay: 750ms;
+  animation-fill-mode: backwards;
+}
+.card1:nth-child(5){
+  animation: scale 1s;
+  animation-delay: 1000ms;
+  animation-fill-mode: backwards;
+}
+.card1:nth-child(6){
+  animation: scale 1s;
+  animation-delay: 1250ms;
+  animation-fill-mode: backwards;
+}
+.card1:nth-child(7){
+  animation: scale 1s;
+  animation-delay: 1500ms;
+  animation-fill-mode: backwards;
+}
+.card1:nth-child(8){
+  animation: scale 1s;
+  animation-delay: 1750ms;
+  animation-fill-mode: backwards;
+}
+.card1:nth-child(9){
+  animation: scale 1s;
+  animation-delay: 2000ms;
+  animation-fill-mode: backwards;
+}
+#stroke1{
+  stroke: rgba(48, 102, 133, 0.459);
+  stroke-width: 18px;
+}
+#stroke2{
+  stroke: teal;
+  stroke-width: 10px; 
+}
