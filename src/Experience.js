@@ -68,6 +68,7 @@ export default function Experience() {
         onUpdate: render1,
       }
     })
+    console.log(window.scrollY)
     images1[0].onload=render1
     function render1(){
       context1.canvas.width = images1[0].width

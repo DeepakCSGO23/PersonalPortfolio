@@ -7,7 +7,7 @@ function App() {
   return (
     <main className='flex w-screen h-screen mainpage'>
       <div className='relative w-[650px] p-3 pt-7 duration-500 bg-side-theme/90'>
-        <div className={`flex-flex-column space-y-8 pt-32 pl-5  duration-500  `}>
+        <div className={`flex-flex-column space-y-8 pt-32 pl-5 relative left-5  duration-500  `}>
           <img className={` ${!open && "scale-0"} rounded-full items-center absolute right-40 top-6 duration-500 border-2 border-black`} src="/circleavatar.webp" height="110px" width="110px" alt='circleavatar'/>
         <div className={` duration-500 ${!open && "scale-0"} text-xs flex flex-row space-x-16`}>
         <div className='flex flex-row space-x-2'>

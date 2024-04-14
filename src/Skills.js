@@ -1,5 +1,4 @@
 import React from 'react'
-import {motion} from 'framer-motion'
 function Skills() {
   return (
        <div className='absolute w-screen h-screen p-20 space-y-14 bg-[#d0d0d0]'>
@@ -71,7 +70,7 @@ function Skills() {
 </svg>
 </div>
        <div className='space-y-4'><h1 className='font-mono text-[20px]'>Database</h1>
-       <h1 className='text-4xl karla'>MangoDB</h1><svg width="680" height="45" viewBox="0 0 685 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <h1 className='text-4xl karla'>MongoDB</h1><svg width="680" height="45" viewBox="0 0 685 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="loadingbar">
 <rect id="border" x="3" y="3" width="679" height="42" fill="white" stroke="black" stroke-width="6"/>
 <rect id="r3" x="6" y="5" width="8" height="38" fill="rgb(19 78 74 / 0.8)"/>
