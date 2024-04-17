@@ -6,19 +6,14 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from './App';
-import  About from './About';
 import Skills from './Skills';
 import Certificate from './Certificate';
 import Experience from './Experience';
-import Technology from './Technology';
+import Project from './Project';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
-  },
-  {
-    path: "about",
-    element: <About/>,
   },
   {
     path: "skills",
@@ -30,8 +25,8 @@ const router = createBrowserRouter([
     path: "experience",
     element: <Experience/>
   },{
-    path: "Technology",
-    element:<Technology/>
+    path: "project",
+    element:<Project/>
   }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));

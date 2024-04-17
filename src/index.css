@@ -61,43 +61,34 @@ body{
   font-family: breaking;
 }
 @font-face {
-  font-family: north;
-  src: url('fonts/Blacknorthdemo-mLE25.otf');
-}
-.font-north{
-  font-family: north;
-}
-@font-face {
-  font-family: 'Fira Sans', sans-serif;
-
-}
-.font-fira{
-  font-family: 'Fira Sans', sans-serif;
-}
-.font-oswald{
-  font-family: oswald;
-}
-
-@font-face {
-  font-family: naturebeauty;
+  font-family: nature;
   src: url('fonts/NatureBeautyPersonalUse-9Y2DK.ttf');
 }
-.naturebeauty{
-  font-family: naturebeauty;
+.font-nature{
+  font-family: nature;
 }
 @font-face {
-    font-family: abril;
-    src: url(fonts/AbrilFatface-Regular.ttf);
+  font-family: roboto_regular;
+  font-weight: 200;
+  src: url('fonts/RobotoCondensed-Regular.ttf');
 }
-.abril{
-    font-family: abril;
+.roboto_regular{
+  font-family: roboto_regular;
 }
 @font-face {
-    font-family: karla;
-    src: url(fonts/Karla-Italic-VariableFont_wght.ttf);
+  font-family: roboto_bold;
+  src: url('fonts/RobotoCondensed-Bold.ttf');
 }
-.karla{
-    font-family: karla;
+.roboto_bold{
+  font-family: roboto_bold;
+}
+@font-face {
+  font-family: roboto_light;
+  src: url('fonts/RobotoCondensed-Light.ttf');
+}
+
+.roboto_light{
+  font-family: roboto_light;
 }
 body{
     overflow-x: hidden;
