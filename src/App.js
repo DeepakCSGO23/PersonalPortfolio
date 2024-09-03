@@ -41,7 +41,7 @@ function App() {
         <div className='flex flex-row space-x-3'>
         
           <img className={`${!open && "scale-0"} duration-500 cursor-pointer`} src="/resume.svg" width="50" height="50" alt="home" />
-          <h1 className={`${!open && "scale-0"} duration-500 text-[30px]  hover:text-[40px] cursor-pointer p-3 rounded-xl hover:bg-slate-500/30`}><a href='Resume2024.pdf' target='_blank'>RESUME</a></h1>
+          <h1 className={`${!open && "scale-0"} duration-500 text-[30px]  hover:text-[40px] cursor-pointer p-3 rounded-xl hover:bg-slate-500/30`}><a href='DeepakKNCSE2024Updated.pdf' target='_blank'>RESUME</a></h1>
           
         </div>
         
